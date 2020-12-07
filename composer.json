@@ -1,5 +1,5 @@
 {
-    "name": "baklysystems/laravel-shop",
+    "name": "reatailret/laravel-shop",
     "description": "This is just an update for amsgames/laravel-shop to support 5.4 as they don't update it anymore. Package set to provide shop or e-commerce functionality (such as CART, ORDERS, TRANSACTIONS and ITEMS) to Laravel for customizable builds.",
     "license": "MIT",
     "keywords": ["shop","laravel","cart","orders","transactions","paypal","e-commerce","shopping cart","ecommerce","shopping"],
@@ -19,10 +19,9 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/console": "~5.0",
-        "illuminate/support": "~5.0",
-        "amsgames/laravel-shop-gateway-paypal": "1.0.*"
+        "php": ">=7.1",
+        "illuminate/console": "~7.0",
+        "illuminate/support": "~7.0"
     },
     "autoload": {
         "classmap": [
